@@ -1,0 +1,85 @@
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 2px solid #dddddd;
+}
+
+body {
+    background-image: url(images/circle.png);
+    background-repeat: repeat;
+    width: 100%;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    padding: 10px;
+}
+
+.figure-caption {
+    position: relative;
+    bottom: 80px;
+    background-color: #4aaaa5;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+
+.plop {
+    margin: 20px;
+}
+
+.pop {
+    width: 250px;
+    height: 250px;
+}
+
+.container {
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 120px;
+
+}
+
+.row  {
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 37px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 10px;
+}
+
+.nav-link:hover {
+    background-color: #4aaaa5;
+}
+
+.pop:hover {
+    opacity: 0.5;
+}
+
+
+/* .page-footer, .footer-copyright {
+    background-color: #666666;
+    color: #ffffff;
+    padding: ;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
+    width: 100%; */
