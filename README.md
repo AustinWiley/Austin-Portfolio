@@ -1,3 +1,3 @@
-# bootstrap-portfolio
+# Austin-portfolio
 
 https://austinwiley.github.io/Austin-Portfolio/
