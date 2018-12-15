@@ -13,6 +13,8 @@ a {
 
 body {
     background-image: url(images/circle.png);
+    /* background-image: url(images/pixles.png); */
+    /* background-image: url(images/graypattern.jpg); */
     background-repeat: repeat;
     width: 100%;
 }
@@ -28,9 +30,9 @@ body {
     background-color: #4aaaa5;
 }
 
-.figure-caption {
-    position: relative;
-    bottom: 80px;
+.figure-caption, .figure-github {
+    /* position: relative;
+    bottom: 150px; */
     background-color: #4aaaa5;
     padding: 10px;
     text-align: center;
@@ -38,8 +40,18 @@ body {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 18px;
     text-decoration: none;
-    
 }
+
+.figure-caption {
+    position: relative;
+    bottom: 130px;
+}
+
+.figure-github {
+    position: relative;
+    bottom: 120px;
+}
+
 
 .plop {
     margin: 20px;
@@ -79,22 +91,24 @@ h2 {
     background-color: #4aaaa5;
 }
 
-.pop:hover {
+/* .figure-caption:hover {
     opacity: 0.5;
+} */
+
+.figure-caption:hover {
+    background-color: #979694
+}
+
+.figure-github:hover {
+    background-color: #979494
 }
 
 .bg-info {
     background-color: #4aaaa5 !important;
 }
 
-
-
-/* .page-footer, .footer-copyright {
-    background-color: #666666;
-    color: #ffffff;
-    padding: ;
-    text-align: center;
-    border-top: 8px solid #4aaaa5;
-    position: fixed;
-    bottom: 0;
-    width: 100%; */
+.descript {
+    font-size: 20px;
+    line-height: 2;
+    color: rgb(75, 72, 72);
+}
